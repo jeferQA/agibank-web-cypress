@@ -15,7 +15,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --spec 'cypress/e2e/search.cy.js'"
+    "test": "npx cypress run --spec 'cypress/e2e/searchTests.cy.js'"
   },
   "devDependencies": {
     "cypress": "^15.13.0"
