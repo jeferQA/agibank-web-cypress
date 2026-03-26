@@ -1,7 +1,7 @@
 Cypress.Commands.add('searchBlog', (keywordInput) => {
     const encoded = encodeURIComponent(keywordInput).replace(/%20/g, '+');
 
-    cy.wait(6000);
+    cy.wait(3000);
     cy.get('a.slide-search.astra-search-icon').click();
     cy.get('#search-field').type(keywordInput+'{enter}');
     cy.url().should('include', `?s=${encoded}`);
