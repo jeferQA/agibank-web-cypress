@@ -1,0 +1,23 @@
+{
+  "name": "agibank-web-cypress",
+  "version": "1.0.0",
+  "description": "Teste técnico QA",
+  "homepage": "https://github.com/jeferQA/agibank-web-cypress#readme",
+  "bugs": {
+    "url": "https://github.com/jeferQA/agibank-web-cypress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeferQA/agibank-web-cypress.git"
+  },
+  "license": "ISC",
+  "author": "Jeferson Indejejczak",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --spec 'cypress/e2e/search.cy.js'"
+  },
+  "devDependencies": {
+    "cypress": "^15.13.0"
+  }
+}
