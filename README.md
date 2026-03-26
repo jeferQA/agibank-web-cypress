@@ -14,7 +14,8 @@ Teste técnico QA - Automação de testes web com Cypress
 
 ## 🎯 Sobre o Projeto
 
-Este projeto contém testes automatizados para a aplicação web do Agibank utilizando o framework Cypress. Os testes cobrem funcionalidades críticas da plataforma, garantindo qualidade e confiabilidade.
+- Este projeto contempla o desafio técnico de automação web, considerando o blog Agibank, foram automatizados 2 cenários relevantes relacionados a pesquisa de artigos do blog.
+- Foi aplicado uma abstração do padrão de projeto "Page Object" no contexto de Cypress, separando as ações/interações do usuário por contexto (commands) e os dados de teste separados em fixtures.
 
 **URL da Aplicação:** https://blog.agibank.com.br
 
